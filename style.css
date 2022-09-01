@@ -1,0 +1,1438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffce7;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* command css start*/
+.font333 {
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #333;
+}
+/* command css end */
+
+/* index full start*/
+.indexFullContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #fffce7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* index full end */
+
+/* index header start */
+.headerContainer {
+    width: 100%;
+    height: 300px;
+    background-image: url(./image/indexHeader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: bold;
+}
+
+.menu ul {
+    width: 100%;
+    max-width: 222px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu li {
+    padding: 5px;
+    font-size: 18px;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(10, 32, 58, 0.5);
+}
+
+.bannerGrid {
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.bannerGrid p {
+    font-size: 44px;
+    text-align: center;
+    color: #fff;
+}
+
+/* index header end */
+
+/* index main start */
+.mainContainer {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    background-color: #fffce7;
+}
+
+.mainRight {
+    width: 68%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.mainRightGrid {
+    width: 100%;
+    max-width: 670px;
+}
+
+.mainRightGrid h1 {
+    font-size: 32px;
+}
+
+.mainRightGrid p {
+    font-size: 15px;
+}
+
+.mainLeft {
+    width: 32%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.mainLeft img {
+    width: 228px;
+    height: 440px;
+}
+/* index main end */
+
+/* index footer start */
+.footerContainer {
+    width: 100%;
+    height: 100px;
+    background-color: #978585;
+}
+
+.footerGrid {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerGrid p {
+    font-size: 14px;
+    color: #fff;
+}
+/* index footer end */
+
+/* login full start*/
+.loginFullContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/loginBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* login full end */
+
+/* login header start */
+.loginHeaderContainer {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/* login header end */
+
+/* login main start */
+.loginMainContainer {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    max-height: 650px;
+    min-height: 270px;
+    margin: auto;
+    border-radius: 35px;
+    background-color: rgba(10, 32, 58, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginImg {
+    width: 97.6%;
+    max-width: 1160px;
+    height: 93.8%;
+    border-radius: 35px;
+    background-image: url(./image/loginImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.loginMainLeft {
+    width: 45.7%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.loginMainLeft h1 {
+    font-size: 34px;
+}
+
+.loginMainLeft p {
+    font-size: 15px;
+}
+
+.loginMainRight {
+    width: 45.7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginMainRight1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.9%;
+}
+
+.loginMainRight2 {
+    width: 94.3%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2.6%;
+    margin-bottom: 0;
+}
+
+.loginMainRight2 p {
+    font-size: 15px;
+}
+
+.loginMainRight2 input {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.loginMainRight3 {
+    width: 94.3%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    margin-top: 2.6%;
+    margin-bottom: 0;
+}
+
+.loginMainRight3 button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.loginMainRight4 {
+    width: 94.3%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2.6%;
+    margin-bottom: 0;
+}
+
+.loginMainRight4 input {
+    width: 94.3%;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #09203f;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+}
+/* login main end */
+
+/* shop, individualProduct header start */
+.shopFullContainer,
+.individualProductUllContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #fffce7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shopHeaderContainer {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.shopHeaderTop, .shopHeaderBottom {
+    width: 100%;
+    height: 60px;
+}
+
+.shopHeaderTop {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.shopHeaderTopGrid, .shopHeaderBottomGrid {
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.individualProductHeaderBottomGrid {
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.shopHeaderTopGrid {
+    justify-content: space-between;
+}
+
+.shopHeaderTopRight h1 {
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.shopHeaderTopLeft {
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopHeaderTopLeft img {
+    width: 40px;
+    height: 40px;
+}
+
+.shopHeaderBottomGrid {
+    justify-content: right;
+}
+
+.shopHeaderBottomGrid ul {
+    width: 338px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.individualProductHeaderBottomGrid ul {
+    width: 112px;
+    font-size: 18px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.shopHeaderBottomBtn {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.shopHeaderBottomGrid a {
+    padding: 5px;
+}
+/* shop header individualCourse end */
+
+/* shop main start */
+.slides img {
+    width: 100%;
+    height: 100%;
+    max-height: 800px;
+}
+/* shop main end */
+
+/* shop header for course start */
+.shopHeaderCourseSlide img,
+.shopHeaderMerchandiseSlide img,
+.shopHeaderDeviceSlide img {
+    width: 100%;
+    height: 100%;
+    max-height: 410px;
+}
+/* shop header for course end */
+
+/* shop main for course, merchandise start */
+.shopMainCourseTitleGrid,
+.shopMainMerchandiseTitleGrid {
+    width: 100%;
+    max-width: 1200px;
+    height: 45px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopMainCourseTitleGrid h1,
+.shopMainMerchandiseTitleGrid h1 {
+    font-size: 34px;
+    margin: 0;
+
+}
+
+.shopMainCourseListGrid,
+.shopMainMerchandiseListGrid {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopMainCourseList,
+.shopMainMerchandiseList {
+    width: 23.5%;
+    height: auto;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.shopMainCourseList a,
+.shopMainMerchandiseList a {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.shopMainCourseList img,
+.shopMainMerchandiseList img {
+    width: 100%;
+    height: 100%;
+    max-height: 285px;
+}
+
+.shopMainCourseName, .shopMainCoursePeriod,
+.shopMainCourseTrainerFee {
+    margin-bottom: 5.4%;
+}
+
+.shopMainCourseName, .shopMainMerchandiseName {
+    cursor: pointer;
+}
+
+.shopMainCourseName, .shopMainCoursePeriod,
+.shopMainCourseTrainerFee,
+.shopMainMerchandiseName {
+    width: 100%;
+    height: 7.9%;
+    max-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopMainMerchandisePrice {
+    width: 100%;
+    height: 7.9%;
+    max-height: 32px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.shopMainCourseName p,
+.shopMainMerchandiseName p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shopMainCourseTrainerFeeLeft, .shopMainCourseTrainerFeeRight {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopMainCourseTrainerFeeLeft {
+    border-right: 1px solid #dbdbdb;
+}
+
+.shopMainCourseTrainerFeeLeft p,
+.shopMainCoursePeriod p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.shopMainCourseTrainerFeeRight p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.shopMainMerchandisePrice p {
+    margin: 0;
+    margin-left: 10px;
+}
+/* shop main for course,Merchandise end */
+
+/* individualProduct main start */
+.individualProductMainContainer {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.individualProductMainTop {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.individualProductMainTopLeft {
+    width: 57.5%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individualProductMainTopLeft img {
+    width: 90%;
+}
+
+.individualProductMainTopRight {
+    width: 40.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.individualProductMainTopRight h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.individualProductMainTopRight p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.individualProductMainTopRightTop {
+    width: 100%;
+    height: 70.8%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.individualProductMainTopRightTopTitle {
+    width: 100%;
+    height: 29.4%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individualProductMainTopRightTopDate {
+    width: 100%;
+    height: 41.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.individualProductMainTopRightTopStartDateGrid,
+.individualProductMainTopRightTopEndDateGrid,
+.individualProductMainTopRightTopPriceGrid,
+.individualProductMainTopRightTopSizeGrid {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.individualProductMainTopRightTopStartDateText,
+.individualProductMainTopRightTopEndDateText,
+.individualProductMainTopRightTopTrainer,
+.individualProductMainTopRightTopPriceText,
+.individualProductMainTopRightTopSizeText,
+.individualProductMainTopRightTopQuantity {
+    width: 21%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.individualProductMainTopRightTopStartDate,
+.individualProductMainTopRightTopEndDate,
+.individualProductMainTopRightTopTrainerName,
+.individualProductMainTopRightTopPrice,
+.individualProductMainTopRightTopSize,
+.individualProductMainTopRightTopQuantityName {
+    width: 79%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.individualProductMainTopRightTopTrainerGrid,
+.individualProductMainTopRightTopQuantityGrid {
+    width: 100%;
+    height: 20.6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.individualProductMainTopRightBottom {
+    width: 100%;
+    height: 27%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.individualProductMainTopRightBottomTop {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.individualProductMainTopRightBottomTop p {
+    margin-left: 4.1%;
+}
+
+.individualProductMainTopRightBottomBottom {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.individualProductMainTopRightBottomBottom button {
+    width: 67.9%;
+    height: 60%;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e8de5;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.individualProductMainBottom {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.individualProductMainBottom img {
+    width: 100%;
+}
+
+.updateMerchandise {
+    width: 100%;
+    height: 100%;
+}
+
+.individualProductMainTopRightTopSize select {
+    width: 16.4%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.individualProductMainTopRightTopQuantityName input[type=button] {
+    width: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.individualProductMainTopRightTopQuantityName input[type=text] {
+    width: 8%;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+/* individualProduct main end */
+
+/* register header start */
+.registerFullContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/registerBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registerHeaderContainer {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+/* register header end */
+
+/* register main start */
+.registerMainContainer {
+    width: 100%;
+    max-width: 790px;
+    height: 100%;
+    max-height: 924px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.registerMainTop {
+    width: 100%;
+    height: 20.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.registerMainBottom {
+    width: 100%;
+    height: 79.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerMainBottom p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.registerForm {
+    height: 100%;
+}
+
+.registerMainUploadImageGrid {
+    width: 100%;
+    height: 20.7%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4%;
+}
+
+.registerFile {
+    width: 55.8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.registerFile label, .registerFile input {
+    margin-left: 6.6%;
+}
+
+.registerImageGrid {
+    width: 19%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+#registerImage {
+    width: 77.3%;
+    height: 91.3%;
+    margin: auto;
+}
+
+.registerUsernameGrid, .registerEmailGrid, .registerNameGrid,
+.registerPhoneGrid, .registerAddressGrid,
+.registerPostGrid, .registerOrganizeGrid {
+    width: 100%;
+    height: 5.5%;
+    margin-bottom: 1.4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registerUsernameText, .registerEmailText, .registerNameText,
+.registerPhoneText, .registerAddressText, .registerPostText,
+.registerOrganizeText {
+    width: 10.1%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.registerUsernameInput, .registerEmailInput, .registerNameInput,
+.registerPhoneInput, .registerAddressInput, .registerPostInput,
+.registerOrganizeInput {
+    width: 58.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerUsernameInput input, .registerEmailInput input,
+.registerNameInput input, .registerPhoneInput input,
+.registerAddressInput input, .registerPostInput input,
+.registerOrganizeInput input {
+    width: 95.6%;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+}
+
+.registerUsernameBtn, .registerEmailBtn, .emptyForSpace {
+    width: 31.7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerUsernameBtn input, .registerEmailBtn input {
+    width: 64.4%;
+    height: 50%;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff3131;
+}
+
+.registerPasswordGrid {
+    width: 100%;
+    height: 10.9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registerPasswordRight, .registerPasswordLeft {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerPasswordRight p, .registerPasswordLeft p {
+    margin-bottom: 5%;
+}
+
+.registerPasswordGrid input {
+    width: 95.6%;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+}
+
+#registerPasswordCheck {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerPasswordCheckGrid, .registerRegisterBtnGrid {
+    width: 100%;
+    height: 5.5%;
+    margin-bottom: 1.4%;
+}
+
+.registerRegisterBtnGrid {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.registerRegisterBtnGrid button {
+    width: 27.2%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    background-color: #4663f4;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+/* register main end */
+
+/* CheckUsername.php popup window start */
+.checkUsernameGrid,
+.checkEmailGrid {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkUsernameWindow,
+.checkEmailWindow {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkEmailWindow {
+    width: 500px;
+}
+
+.checkUsernameAvailable,
+.checkUsernameDisavailable,
+.checkEmailAvailable,
+.checkEmailDisavailable {
+    font-size: 24px;
+}
+
+.checkUsernameAvailable a,
+.checkEmailAvailable a {
+    color: blue;
+}
+
+.checkUsernameDisavailable a,
+.checkEmailDisavailable a {
+    color: red;
+}
+
+.checkUsernameButton,
+.checkEmailButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkUsernameButton button,
+.checkEmailButton button {
+    width: 70px;
+    height: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    margin-top: 4px;
+}
+/* CheckUsername.php popup window end */
+
+/* cart.php full container start */
+.cartFullContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #fffce7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* cart.php full container end */
+
+/* cart.php main start */
+.cartMainContainer,
+.cartMainContainerCheckout {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.cartMainHeader {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.cartMainHeaderLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.cartMainHeaderLeft h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cartMainHeaderRight {
+    width: 27%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 17px;
+}
+
+.cartMainHeaderRight span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cartMainHeaderRight p {
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.cartMainCourse,
+.cartMainMerchandise {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartMainCourseListTitle,
+.cartMainMerchandiseListTitle {
+    height: 30px;
+    background-color: #0a203a;
+}
+
+.cartMainCourseListContent,
+.cartMainMerchandiseListContent {
+    height: 120px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.cartMainCourseListTotal,
+.cartMainMerchandiseListTotal {
+    height: 30px;
+    background-color: #fff;
+}
+
+.cartMainCourseListTitle, .cartMainCourseListContent, .cartMainCourseListTotal,
+.cartMainMerchandiseListTitle, .cartMainMerchandiseListContent, .cartMainMerchandiseListTotal {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartMainCourseListTitle p,
+.cartMainMerchandiseListTitle p {
+    color: #fff;
+}
+
+.cartMainCourseListTitle p, .cartMainCourseListContent p,
+.cartMainCourseListTotal p, .cartMainMerchandiseListTitle p,
+.cartMainMerchandiseListContent p, .cartMainMerchandiseListTotal p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cartMainCourseListPoster,
+.cartMainMerchandiseListPoster {
+    width:13.2%;
+    height: 100%;
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.cartMainCourseListCourseName {
+    width: 17.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartMainCourseListStartDate, .cartMainCourseListEndDate,
+.cartMainCourseListDelete, .cartMainMerchandiseListDelete,
+.cartMainMerchandiseListType {
+    width: 8.8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartMainCourseListPrice,
+.cartMainMerchandiseListPrice {
+    width: 12.8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.cartMainCourseListDelete,
+.cartMainMerchandiseListDelete {
+    margin-right: 17px;
+    justify-content: right;
+}
+
+.cartMainCourseListTrainer {
+    width: 13.2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartMainCourseListTotalText,
+.cartMainMerchandiseListTotalText {
+    width: 13.2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.cartMainCourseListContent img,
+.cartMainMerchandiseListContent img {
+    width: 100%;
+    height: 100%;
+}
+
+.cartMainCourseListDelete a,
+.cartMainMerchandiseListDelete a {
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cartMainMerchandiseListMerchandiseName {
+    width: 17.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartMainMerchandiseListSize,
+.cartMainMerchandiseListQuantity,
+.cartMainMerchandiseListTotalText {
+    width: 6.7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartMainMerchandiseListQuantity {
+    justify-content: center;
+}
+
+.cartMainMerchandiseListPriceEach {
+    width: 9.2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartMainCalculateTotal {
+    width: 100%;
+    max-width: 792px;
+    height: 100px;
+    margin: auto;
+    border: 5px solid #dbdbdb;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartMainCalculateTotal p {
+    font-size: 15px;
+}
+
+.cartMainCalculateTotal span {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+.cartMainBtn {
+    width: 100%;
+    max-width: 792px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cartMainBtnLeft, .cartMainBtnRight {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartMainBtnLeft button, .cartMainBtnRight button {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cartMainBtnLeft button {
+    background-color: transparent;
+    border: 1px solid #2e8de5;
+    border-radius: 5px;
+    color: #2e8de5;
+}
+
+.cartMainBtnRight button {
+    background-color: #2e8de5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+/* cart.php main end */
+
+/* cart.php main check out start */
+.deliveryInformation,
+.subtotal {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.deliveryInformationTitle,
+.paymentMethodTop {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.deliveryInformationName,
+.deliveryInformationPhone,
+.deliveryInformationAddress {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.deliveryInformation h1{
+    color: #2e8de5;
+}
+
+.deliveryInformation h1,
+.paymentMethod h1 {
+    font-size: 24px;
+    margin: 0 0 0 17px;
+}
+
+.deliveryInformation h1,
+.paymentMethod h1,
+.deliveryInformation p,
+.paymentMethod p {
+    margin: 0 0 0 17px;
+}
+
+.paymentMethod {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.deliveryInformationTitle,
+.paymentMethodTop {
+    display: flex;
+    align-items: center;
+}
+
+.paymentMethodBottom {
+    width: 100%;
+    height: 150px;
+}
+
+.paymentMethodBottom button {
+    font-size: 24px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productSubtotal,
+.deliveryFee,
+.totalPayment {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productSubtotalLeft, .deliveryFeeLeft,
+.totalPaymentLeft {
+    width: 87.5%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 15px;
+}
+
+.productSubtotalRight, .deliveryFeeRight,
+.totalPaymentRight {
+    width: 12.5%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 15px;
+}
+
+.totalPaymentRight {
+    font-size: 24px;
+    color: #f00;
+    font-weight: bold;
+}
+
+.placeOrderBtn {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.placeOrderBtn button {
+    width: 19%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2e8de5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* cart.php main check out end */

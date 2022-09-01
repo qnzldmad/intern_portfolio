@@ -1,0 +1,59 @@
+<!-- <?php
+    $get_merchandise_id = $_GET['merchandiseID'];
+		$sql = mq("SELECT * FROM merchandise WHERE merchandiseID='".$get_merchandise_id."'");
+    $individual_merchandise = $sql->fetch_array();
+  ?>
+    <?php echo $individual_merchandise['merchandiseName']  ?> -->
+<!-- <?php
+    $sql = mq("select * from merchandise where merchandiseID=1");
+    $row = $sql -> fetch_array();
+    ?> -->
+<div class="test">
+  <span id="check_limited_quantity" style="display: none">5</span>
+  <!-- <?php echo $row['merchandiseQuantity'] ?> -->
+</div>
+<div class="wrapper">
+  <input type="button" value="+" onclick="add();" />
+  <!-- <input
+        type="text"
+        name=""
+        value="1"
+        id="result_quantity"
+        onchange="change();"
+      /> -->
+  <span id="result_quantity">1</span>
+  <input type="button" value="-" onclick="less();" />
+</div>
+
+<div class="test">
+  <p>
+    <?php
+          $individual_merchandises = $individual_merchandise['merchandiseType'];
+          if($individual_merchandises == 'Office Supplies') {?>
+    <select name="" id="">
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+    </select>
+    <?php } ?>
+  </p>
+</div>
+
+<div class="test2">
+  <span id="sell_Price">5000</span>
+</div>
+
+<input type="hidden" name="sum" readonly />
+
+<div id="mySum"></div>
+<!--  -->
+<li><a href="../logout/logout.php">Logout</a></li>
+
+<div class="individualProductMainTopRightBottomBottom">
+  <button
+    type="submit"
+    onclick="location.href='../cart/cartUpdate.php?courseID='"
+  >
+    Add Shopping Cart
+  </button>
+</div>

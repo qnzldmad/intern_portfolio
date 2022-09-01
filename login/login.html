@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="loginFullContainer">
+      <header class="loginHeaderContainer">
+        <nav class="menu font333">
+          <ul>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../shop/shop.php">Shop</a></li>
+            <li><a href="./login/login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="loginMainContainer">
+        <div class="loginImg">
+          <div class="loginMainLeft font333">
+            <h1>Welcome to CPDT</h1>
+            <p>
+              Grow Yourself Through Various Courses of <br />
+              Centre for Professional Development and Training!
+            </p>
+          </div>
+          <div class="loginMainRight font333">
+            <div class="loginMainRight1 font333">
+              <h1>Login</h1>
+            </div>
+            <form method="post" action="./checkLogin.php" class="loginForm">
+              <div class="loginMainRight2 font333">
+                <p>Username</p>
+                <input
+                  type="text"
+                  name="loginUsername"
+                  class="loginUsername"
+                  placeholder="Enter Your ID"
+                />
+              </div>
+              <div class="loginMainRight2 font333">
+                <p>Password</p>
+                <input
+                  type="password"
+                  name="loginPassword"
+                  class="loginPassword"
+                  placeholder="Enter Your Password"
+                />
+              </div>
+              <div class="loginMainRight3 font333">
+                <button>Forgot Your Password?</button>
+              </div>
+              <div class="loginMainRight4 font333">
+                <input type="submit" value="LOGIN" class="inputLogin" />
+              </div>
+            </form>
+            <div class="loginMainRight3 font333">
+              <button onclick="window.location.href='../register/register.php'">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footerContainer">
+        <div class="footerGrid font333">
+          <p>Copyright ⓒ 2021 Imperium Edumaax Sdn Bhd</p>
+          <p>Powered By Kayaum Company</p>
+        </div>
+      </footer>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>
